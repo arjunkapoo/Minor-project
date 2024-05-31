@@ -1,8 +1,8 @@
 # Image Magick (By GAN's)
-Description of GAN (Generative Adversarial Network)
+# Description of GAN (Generative Adversarial Network)
 Generative Adversarial Networks (GANs) are a class of machine learning frameworks designed for generating new data samples that resemble a given dataset. Introduced by Ian Goodfellow and his colleagues in 2014, GANs have gained significant popularity for their ability to produce highly realistic images, videos, and other data types.
 
-Working of GAN
+# Working of GAN
 A GAN consists of two neural networks, the Generator (G) and the Discriminator (D), that compete against each other in a game-theoretic framework.
 
 Generator (G): The generator's role is to create data samples that resemble the real data. It takes random noise as input and transforms it into a data sample.
@@ -18,7 +18,7 @@ The generator's loss is calculated based on the discriminator's feedback, with t
 Both networks are updated iteratively using backpropagation to minimize their respective losses.
 The objective of the generator is to fool the discriminator into classifying fake samples as real, while the discriminator aims to improve its accuracy in distinguishing real from fake samples. This adversarial process continues until the generator produces data that is indistinguishable from real data according to the discriminator.
 
-Features of GAN
+# Features of GAN
 Data Generation: GANs are primarily used for generating new, synthetic data that resembles the original training data. This is useful in various applications such as image generation, text synthesis, and audio production.
 
 Unsupervised Learning: GANs can learn to generate data without requiring labeled datasets, making them effective for unsupervised learning tasks.
@@ -29,7 +29,7 @@ Versatility: GANs can be adapted to a wide range of domains and data types, incl
 
 Adversarial Training: The unique training approach involving a generator and discriminator helps in continuously improving the quality of the generated data.
 
-Libraries Used for GAN
+# Libraries Used for GAN
 Several machine learning libraries and frameworks provide support for building and training GANs. Some of the most commonly used libraries include:
 
 TensorFlow: An open-source machine learning framework developed by Google. TensorFlow offers extensive support for deep learning and GAN implementation through its high-level APIs like Keras.
